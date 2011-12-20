@@ -6,7 +6,7 @@
 \usepackage[francais]{babel}
 \usepackage{amsmath}
 \usepackage{amssymb}
-
+\usepackage{ae}
 \usepackage{tipa}
 %\usepackage{txfonts}
 \usepackage{textcomp}

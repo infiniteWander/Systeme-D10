@@ -22,7 +22,7 @@
 \fancyhead[LE,RO]{\bfseries\thepage}
 \fancyhead[LO]{\bfseries\rightmark}
 \fancyhead[RE]{\bfseries\leftmark}
-\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\headrulewidth}{.5pt}
 \renewcommand{\footrulewidth}{0pt}
 \addtolength{\headheight}{0.5pt}
 \setlength{\footskip}{0in}

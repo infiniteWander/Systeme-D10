@@ -1,34 +1,34 @@
-	I.	Introduction.
-	II.	 Multivers et Plans.
+I.	Introduction.
+II.	 Multivers et Plans.
 	A.	 Introduction.
 	B.	 Les principaux Plans.
-	1.	 Ildris.
-	2.	 Abdrakar.
-	3.	 Le Warp et les Plans Divins.
+		1.	 Ildris.
+		2.	 Abdrakar.
+		3.	 Le Warp et les Plans Divins.
 	C.	 De la notion de Multivers.
-	III.	 La Magie.
+III.	 La Magie.
 	A.	 Les cinq Courants Magiques ou De la Couleur de la Magie.
 	B.	 Les cinq Magies et les deux Autres Magies.
-	IV.	 Détails des Plans.
+IV.	 Détails des Plans.
 	A.	 Géographie des Plans.
 	B.	 Folklores locaux.
-	1.	 Ildris.
-	2.	 Abdrakar.
-	V.	 Le Système D10.
+		1.	 Ildris.
+		2.	 Abdrakar.
+V.	 Le Système D10.
 	A.	 Fiche de personnage.
-	1.	 Comment créer une fiche de personnage.
-	2.	 Caractéristiques.
-	3.	 Points de Vie, Points de Fatigue.
-	4.	 Compétences.
-	5.	 Artefacts.
+		1.	 Comment créer une fiche de personnage.
+		2.	 Caractéristiques.
+		3.	 Points de Vie, Points de Fatigue.
+		4.	 Compétences.
+		5.	 Artefacts.
 	B.	 Notion de Classes.
 	C.	 Test de compétences.
 	D.	 Règles de Combat.
-	1.	Combat à Distance.
-	2.	 Combat au Corps à Corps.
+		1.	Combat à Distance.
+		2.	 Combat au Corps à Corps.
 	E.	 Règles de Magie.
-	1.	 Magie innée.
-	2.	 Hautes Magie.
-	3.	 Magie des Mots.
-	4.	 Magie de Puissance.
-	5.	 Dessin.
+		1.	 Magie innée.
+		2.	 Hautes Magie.
+		3.	 Magie des Mots.
+		4.	 Magie de Puissance.
+		5.	 Dessin.
