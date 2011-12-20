@@ -30,6 +30,7 @@
 *.blg
 *.bbl
 *.tex~
+*.backup
 
 # OS generated files #
 ######################
