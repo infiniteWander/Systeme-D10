@@ -1,7 +1,5 @@
-rm -fr *.aux
-rm -fr *.bib
-rm -fr *.bbl
-rm -fr *.toc
-rm -fr *.log
+find ./ -name "*.aux" -delete; echo ".aux done"
+find ./ -name "*.toc" -delete; echo ".toc done"
+find ./ -name "*.log" -delete; echo ".log done"
 
 echo "All logs cleaned, system operational."

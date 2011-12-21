@@ -10,6 +10,6 @@ Wander where there is no path.
 Be empty, that is all.
 
 #Usefull links#
-http://www.andy-roberts.net/writing/latex/page_layout
-http://www.freewebs.com/grjallen/tao2.htm
-http://sureshemre.wordpress.com/2010/12/04/latex-book-template-with-fancy-header/
+*http://www.andy-roberts.net/writing/latex/page_layout
+*http://www.freewebs.com/grjallen/tao2.htm
+*http://sureshemre.wordpress.com/2010/12/04/latex-book-template-with-fancy-header/
