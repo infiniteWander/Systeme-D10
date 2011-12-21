@@ -1,40 +1,7 @@
 \documentclass[12pt]{book}
- 
-\usepackage[right=1in, left=1in, top=1in,  a4paper]{geometry}
-\usepackage[utf8x]{inputenc}
-\usepackage[pdftex]{graphicx}
-\usepackage[francais]{babel}
-\usepackage{amsmath}
-\usepackage{amssymb}
 
-\usepackage{tipa}
-%\usepackage{txfonts}
-\usepackage{textcomp}
-%\usepackage{amsthm}
-%\usepackage{array}
-%\usepackage{xy}
-\usepackage{fancyhdr}
 
-\pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
-\fancyhf{}
-\fancyhead[LE,RO]{\bfseries\thepage}
-\fancyhead[LO]{\bfseries\rightmark}
-\fancyhead[RE]{\bfseries\leftmark}
-\renewcommand{\headrulewidth}{0.5pt}
-\renewcommand{\footrulewidth}{0pt}
-\addtolength{\headheight}{0.5pt}
-\setlength{\footskip}{0in}
-\renewcommand{\footruleskip}{0pt}
-\fancypagestyle{plain}{%
- \fancyhead{}
- \renewcommand{\headrulewidth}{0pt}
-}
-%
-%\parindent 0in
-\parskip 0.05in
-
+\input{Modules/Config.tex}
 
 \title{Système D10}
 \author{Maximilien et Théotime Rigaut}
@@ -54,7 +21,11 @@
 \frontmatter
  
 \include{Chapitres/Introduction}
- 
+\begin{center}
+    \CcGroupByNcSa{0.83}{0.95ex}\\[2.5ex]
+    {\tiny\CcNote{\CcLongnameByNcSa}}
+    \vspace*{-2.5ex}
+\end{center}
 \tableofcontents
 
 \mainmatter
