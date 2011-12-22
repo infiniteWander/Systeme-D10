@@ -7,17 +7,18 @@
 \usepackage[pdftex]{graphicx}
 
 \usepackage{tipa}
-%\usepackage{txfonts}
+\usepackage{txfonts}
 \usepackage{textcomp}
 %\usepackage{amsthm}
 \usepackage{array}
-%\usepackage{xy}
-\usepackage{fancyhdr}
+\usepackage{xy}
+
 
 \input{Modules/cc_beamer}
 
-\newcommand{\Cf}[2]{Voir {\em #1} chapitre \ref{#2} page \pageref{#2}}
+\newcommand{\Cf}[2]{Voir {\em #1} Chapitre \ref{#2} page \pageref{#2}}
 
+\usepackage{fancyhdr}
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
