@@ -264,35 +264,71 @@ Le Haut Mage décide d'incanter pendant toute la durée que lui permet sa volont
 {\em Ars Virtus :} Le Haut Mage a un Psy de 5, et une compétence d'Ars Virtus a 3 ; il doit donc faire moins de 8 avec un d10. Il est limité par son affinité avec la magie rouge minorée par le rang de l'Ars, donc son degré de réussite maximal est 2.\\
 Admettons qu'il obtient respectivement 1 puis 5 degrés de réussite à ses jets de dés. Le Haut Mage est donc limité dans son deuxième résultat et obtient 1 puis 2 réussites. Le mage lance donc une boule de feu de deux mètres de diamètre occasionnant 1D6 dommages.
 }
+\newcommand{\Amin}{$\mathbb{AM}$in }
+\newcommand{\Amaj}{$\mathbb{AM}$aj }
+\newcommand{\Afon}{$\mathbb{AF}$ }
+\newcommand{\Caf}{$\wp$}
+\newcommand{\Cam}{$\Im$}
 \begin{center}
-\begin{tabular}{|l| |c|c|c|}
+\begin{tabular}{|c| |l c| c | c |}
     \hline
-    Succès & Virtus & Locus & Aetas\\
+    Ars & \multicolumn{2}{c}{Virtus} & {Locus} & Aetas\\
     \hline
     \hline
-    1      & Alteration mineure (X PV)                               & 1 Cible           & Aucune \\
-    2      & Alteration mineure (Xd6 PV)                             & 1d6 Cible         & 1d6 Round \\
-    3      & Altération mineure (X PF ou X pts de caractéristique physiques) & Cercle 1d6m R     &   1d6 Minute\\
-    4      & Altération Majeure (Carac Mentales)& Cercle 1d6dm R    &   1d6 jour\\
-    5      & Altération Fondamentale            & Cercle 1d6km R    & 1d6 an\\  
-    6      &  -                                 & Illimité          &  Infini dans le temps\\
-    7      & - & - &- \\
-    8      & Altération Fondamentale & - & -\\
-    9      & Altération Fondamentale & - & - \\
-    10     & Altération Fondamentale &- &-\\
+    0      & \Amin & (1 PV)         & 1 Cibles & 1 Rounds \\   
+    1      & \Amin & (X PV)         & X Cibles & X Rounds \\
+    2      & \Amin & (Xd6 PV) / (X PF)                                & Xd6 Cibles / \Cercle X m        & Xd6 Rounds \\
+    3      & \Amin & (Xd6 PF) / (X \Caf)             & \Cercle 1d6m     &   X Minute\\
+    4      & \Amaj & (Xd6 \Caf) / (X \Cam)  & \Cercle 1d6dm    &   X Heure \\
+    5      & \Amaj & Xd6 \Cam    & \Cercle 1d6km    & X jour\\  
+    6      & \Afon & - & - &  X mois\\
+    7      & \Afon & - & - & X Mois \\
+    8      & \Afon & - & - & X An \\
+    \hline
+    9     & \multicolumn{4}{c|}{Transcendance} \\
     \hline
 \end{tabular}
 \end{center}
-\subsubsection{Lancer des sorts}
+
+\subsubsection{Temps d'incantation}
+Il est possible d'incanter un sort un certain nombre de temps, dans le but d'en simplifier son lancer. 
+La table suivante en explique les modalités. 
+
+\begin{center}
+\begin{tabular}{|c||l|l|}
+    \hline
+    Degrés & Temps (r) & Temps (s) \\
+    \hline \hline
+    1 & 1 & 6s \\ 
+    2 & 3 & 18s \\ 
+    3 & 7 & 42s \\
+    4 & 15 & 1m 30s \\
+    5 & 31 & 3m 6s \\
+    6 & 95 & 1h 3m 30s \\
+    7 & 351 & 5h 5m 6s \\
+    8 & 1375 & 22h 5m 30s \\
+    9 & 5471 & 3j 19h 1m 6s \\
+    10 & 21855 & 15j 19h 1m 30s \\
+    \hline
+\end{tabular}
+\end{center}
+
+\subsubsection{Les sorts}
+Les sorts sont des arcanes a travers les ars tellement pratiqués quelles en deviennent une évidence pour leur pratiquant, en obéissent donc a des règles légèrement différentes.
+\paragraph{Créer un sort}
+Il faut avoir au préalable déjà lancé le sort. Le nombre de degré en est son cout.
+\paragraph{Lancer des sorts}
 Chaque tour le mage accumule un nombre de points égal a deux fois sa caractéristique Psy. 
 Un sort nécessite la moitié de son coût (d’achat) en points d’accumulation. 
 Le mage ne peux lancer qu’un nombre de sorts égal a son intelligence.
 
-\subsubsection{Répondre a un sort}
+\paragraph{Répondre a un sort}
 A chaque fois qu’un mage lance un sort ce dernier va sur la Pile c’est a dire qu’il n’est pas résolu tout de suite, 
 n'importe quel autre mage peut lancer un sort en réponse, par ordre d’initiative.
 Important, une fois qu’on été lancés un nombre de sorts égal a votre intelligence, vous ne pouvez plus agir dans l'échange magique.
 Les sorts se résoudrons dans l’ordre inverse a celui du lancement.
+
+
 
 % % % % % % % % % % % % % % % % % %
 %       Magie des Mots            %
@@ -332,7 +368,7 @@ Le nombre de degrés de réussite du résultat sera dépensé dans la table suiv
 
 Porte principale (difficulté du dé), porte secondaire (nombre de réussites)
 \begin{center}
-\begin{tabular}{|l| |c|c||c| *{3}{|p{0.2\linewidth}}|}
+\begin{tabular}{|l| |c|c||c| *{3}{|m{0.2\linewidth}}|}
 \hline
 Succès & \multicolumn{2}{c||}{Difficulté} & Adjectif & Pouvoir & Créativité & Volonté\\
 \hline
